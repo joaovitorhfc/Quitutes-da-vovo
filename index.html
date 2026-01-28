@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quitutes da Vovó | O Sabor do Carinho</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Quicksand:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <nav class="navbar">
+        <div class="logo">👵 Quitutes da Vovó</div>
+        <ul class="nav-links">
+            <li><a href="#home">Início</a></li>
+            <li><a href="#doces">Nossos Doces</a></li>
+            <li><a href="#reserva">Encomendar</a></li>
+            <li><a href="#sobre">Sobre mim</a></li>
+        </ul>
+    </nav>
+
+    <header id="home" class="hero">
+        <div class="hero-content">
+            <h1 class="titulo-especial">Feito com Amor e Carinho</h1>
+            <p class="texto-venda">
+                Sabe aquele cheirinho de bolo saindo do forno que abraça a gente? Na <strong>Quitutes da Vovó</strong>, resgatamos essa magia. 
+                Usamos apenas ingredientes selecionados: ovos caipiras, leite fresquinho e o melhor chocolate, sem conservantes ou misturas prontas. 
+                Cada doce é preparado artesanalmente, como se fosse para nossos próprios netos. É mais que um doce, é um pedacinho de felicidade!
+            </p>
+            <a href="#doces" class="btn-cta">Ver Cardápio do Dia</a>
+        </div>
+    </header>
+
+    <main class="container">
+        <h2 class="section-title" id="doces">Nossas Especialidades</h2>
+        <section class="grid-doces" id="vitrine-doces">
+            </section>
+
+        <section id="reserva" class="reserva-section">
+            <h2 class="section-title">Leve a Vovó para sua Casa</h2>
+            <p>Deixe seus dados e o pedido que o coração mandar!</p>
+            <form id="form-reserva" class="form-estilizado">
+                <div class="input-group">
+                    <label for="nome">Como podemos te chamar?</label>
+                    <input type="text" id="nome" placeholder="Seu nome completo" required>
+                </div>
+                <div class="input-group">
+                    <label for="endereco">Onde entregamos?</label>
+                    <input type="text" id="endereco" placeholder="Rua, número e ponto de referência" required>
+                </div>
+                <div class="input-group">
+                    <label for="pedido">Qual a sua vontade hoje?</label>
+                    <textarea id="pedido" rows="4" placeholder="Ex: 1 Pudim inteiro e 10 brigadeiros..." required></textarea>
+                </div>
+                <button type="submit" class="btn-enviar">Enviar Pedido para Vovó</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <p>📸 Instagram Fictício: <strong>@QuitutesDaVovo</strong></p>
+            <p>💬 WhatsApp: <strong>(11) 98888-7777</strong></p>
+            <p class="copy">© 2026 Quitutes da Vovó - O sabor que o tempo não apaga.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
