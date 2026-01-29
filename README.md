@@ -14,17 +14,22 @@ O sistema permite que o usuário navegue entre diferentes páginas, visualize os
 ### Navegacão
 
 ├── index.html           
-├── assets/
-│   ├── css/
+│  ├── css/
 │   │   └── style.css
 │   ├── js/
 │   │   └── script.js
-│   ├── imagens/
-│   └── icones/
+│  ├── img/
+│   └── bolodecenoura.jpeg
+│   └── brigadeiro.jpeg
+│    └── paodemelreceita-fb.jpg
+│    └── pudim-de-leite-condensado-capa.jpeg
+│    └── rosca.png
+│    └── torta.jpeg
+│    └── vovo.png
 ├── sobre/
 │   └── sobre.html
-├── sistema/
-│   └── system.html
+│  ├── css/
+│    └── sobre.css
 └── README.md
 
 ### Funcionalidades
