@@ -1,5 +1,5 @@
 const doces = [
-    { nome: "Pudim de Leite Condensado", preco: "R$ 35,00", img: "/img/pudim-de-leite-condensado-capa.jpeg" },
+    { nome: "Pudim de Leite Condensado", preco: "R$ 35,00", img: "img/pudim-de-leite-condensado-capa.jpeg"},
     { nome: "Bolo de Cenoura c/ Calda", preco: "R$ 28,00", img: "/img/bolodecenoura.jpeg" },
     { nome: "Cesta de Brigadeiros", preco: "R$ 15,00", img: "/img/brigadeiro.jpeg" },
     { nome: "Torta de Morango", preco: "R$ 45,00", img: "/img/torta.jpeg" },
